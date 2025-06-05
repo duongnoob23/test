@@ -1,0 +1,39 @@
+.home {
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.home__content {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 20px;
+}
+
+.home__sidebar {
+  width: 280px;
+  flex-shrink: 0;
+}
+
+.home__main {
+  flex: 1;
+  max-width: 500px;
+}
+
+.home__right {
+  width: 280px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .home__content {
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .home__sidebar,
+  .home__right {
+    width: 100%;
+  }
+}

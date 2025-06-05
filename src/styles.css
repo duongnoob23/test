@@ -1,0 +1,130 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+/* login, newpost*/
+.login-container,
+.np-container {
+  max-width: 300px;
+  margin: 100px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fefefe;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container span,
+.np-container span {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-container input,
+.np-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-container button,
+.np-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #9a9c9c;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-container button:hover,
+.np-container button:hover {
+  background-color: #2f2f2f;
+}
+
+/* stats, about, home, posts */
+.stats-container,
+.about-container,
+.home-container,
+.posts-container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 30px;
+  background-color: #f5f7fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.stats-header,
+.about-header,
+.home-header,
+.posts-header {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.stats-content,
+.about-content,
+.home-content,
+.posts-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.stats-content p,
+.about-content p,
+.home-content p,
+.posts-content p {
+  font-size: 16px;
+  color: #555;
+  margin: 0;
+}
+
+/*post list*/
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+ul li:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+/*appLayout*/
+.navbar {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  font-family: Arial, sans-serif;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  border-radius: 4px;
+}
+
+.nav-link:hover {
+  background-color: #e2e6ea;
+  transform: scale(1.05);
+}
+
+.logout {
+  cursor: pointer;
+}

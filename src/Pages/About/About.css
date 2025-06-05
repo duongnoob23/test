@@ -1,0 +1,29 @@
+.about {
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  padding: 20px;
+}
+
+.about__container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.about__title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #1c1e21;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about__content {
+  font-size: 16px;
+  color: #65676b;
+  line-height: 1.6;
+  text-align: center;
+}

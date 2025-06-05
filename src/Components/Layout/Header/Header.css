@@ -1,0 +1,101 @@
+.header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dadde1;
+  padding: 0 16px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header__left {
+  flex: 1;
+}
+
+.header__center {
+  display: flex;
+  gap: 40px;
+  flex: 1;
+  justify-content: center;
+}
+
+.header__nav-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  text-decoration: none;
+  color: inherit;
+}
+
+.header__nav-item:hover {
+  background-color: #f0f2f5;
+}
+
+.header__icon {
+  font-size: 20px;
+}
+
+.header__text {
+  font-weight: 600;
+  color: #1c1e21;
+}
+
+.header__right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header__avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.header__greeting {
+  font-weight: 600;
+  color: #1c1e21;
+}
+
+.header__logout-btn {
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.header__logout-btn:hover {
+  background-color: #166fe5;
+}
+
+.header__login-text {
+  color: #1877f2;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.header__login-text:hover {
+  background-color: #f0f2f5;
+}

@@ -1,0 +1,64 @@
+.user-list {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.user-list__title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1c1e21;
+  margin: 0 0 16px 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e4e6ea;
+}
+
+.user-list__items {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.user-list__loading,
+.user-list__error {
+  text-align: center;
+  padding: 20px;
+}
+
+.user-list__loading p,
+.user-list__error p {
+  color: #65676b;
+  font-size: 14px;
+  margin: 0 0 12px 0;
+}
+
+.user-list__retry-btn {
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.user-list__retry-btn:hover {
+  background-color: #166fe5;
+}
+
+.user-list__empty {
+  text-align: center;
+  color: #65676b;
+  font-size: 14px;
+  padding: 20px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .user-list {
+    margin-bottom: 16px;
+  }
+}

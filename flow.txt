@@ -1,0 +1,32 @@
+Home → PostList → PostCard → (click comment) → PostDetail → CommentList + CommentForm
+
+Home → UserList → UserItem
+
+Home → Header
+
+Tôi có mô tả đúng cấu trúc gọi components không?
+
+App.js
+└── AppLayout.js
+    ├── Header.js
+    └── Routes:
+        ├── Login.js
+        ├── Register.js
+        ├── Home.js
+        │   ├── UserList.js
+        │   │   └── UserItem.js
+        │   ├── CreatePost.js
+        │   │   └── CreatePostModal.js
+        │   │       └── Modal.js
+        │   ├── PostList.js
+        │   │   └── PostCard.js
+        │   └── PostDetail.js (Modal)
+        │       ├── Modal.js
+        │       └── CommentForm (inline)
+        ├── UserProfile.js
+        │   ├── PostCard.js
+        │   └── PostDetail.js (Modal)
+        │       ├── Modal.js
+        │       └── CommentForm (inline)
+        ├── About.js
+        └── NoMatch.js
