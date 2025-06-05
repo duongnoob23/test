@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./CreatePostModal.css";
 import Modal from "../../Common/Modal/Modal";
-// check liên kết git config remote-v với github web
 function CreatePostModal({ user, onClose, onSubmit }) {
   const [selectedImage, setSelectedImage] = useState(null);
   const [imagePreview, setImagePreview] = useState(null);
